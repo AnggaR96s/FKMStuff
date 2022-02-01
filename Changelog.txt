@@ -1,0 +1,5 @@
+2429f9624 base: dd: Continue probe deferral forever as needed after late_initcall
+8c86c05c5 fs/fuse: remove unused variable
+c175c3e88 fs: f2fs: enlarge min_fsync_blocks to 20
+2ec9ac09b joyeuse_defconfig: regenerate
+2ff7f5982 Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into S

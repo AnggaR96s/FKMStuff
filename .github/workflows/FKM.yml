@@ -1,0 +1,59 @@
+name: Generate FKM Config
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+         persist-credentials: false
+         fetch-depth: 0
+
+      - name: Generate FKM Config
+        run: |
+          rm joyeuse.json
+          DATES=$(TZ=Asia/Jakarta date +"%F")
+          FILE=`ls *.zip`
+          SHA=$(sha1sum "$FILE" | cut -d' ' -f1)
+          VER=`cat version`
+          VAR=$((`cat version` + 1))
+          rm version
+          echo $VAR > version
+          tee -a joyeuse.json <<EOF
+          {
+            "kernel": {
+              "name": "GengKapak",
+              "version": "Rev $VER",
+              "link": "https://github.com/AnggaR96s/FKMStuff/raw/main/$FILE",
+              "changelog_url": "https://raw.githubusercontent.com/AnggaR96s/FKMStuff/main/Changelog.txt",
+              "date": "$DATES",
+              "sha1": "$SHA"
+            },
+            "support": {
+              "link": "https://paypal.me/anggaxyz"
+            }
+          }
+
+      - name: Commit changes
+        run: |
+          DATE=$(TZ=Asia/Jakarta date +"%F")
+          VER=`cat version`
+          git config --local user.email "angga@linuxmail.org"
+          git config --local user.name "Angga"
+          git add -A
+          git commit -asm "Bump FMK Config to $DATE
+
+          Version: $VER"
+
+      - name: GitHub Push
+        uses: ad-m/github-push-action@v0.5.0
+        with:
+          force: true
+          directory: "."
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
