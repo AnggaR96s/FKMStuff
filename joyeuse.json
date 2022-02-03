@@ -1,24 +1,11 @@
 {
   "kernel": {
     "name": "GengKapak",
-    "version": "Rev 1",
-    "link": "https://github.com/AnggaR96s/FKMStuff/raw/main/JandaX-MaximumSlav-joyeuse-RS-2022-02-01_22-26-18.zip",
+    "version": "Rev 2",
+    "link": "https://github.com/AnggaR96s/FKMStuff/raw/main/JandaX-MaximumSlav-joyeuse-RS-2022-02-03_19-06-54.zip",
     "changelog_url": "https://raw.githubusercontent.com/AnggaR96s/FKMStuff/main/Changelog.txt",
-    "date": "2022-02-01",
-    "sha1": "6176bdbffbb7a56469e2a469c20820f9199c0c2c"
-  },
-  "support": {
-    "link": "https://paypal.me/anggaxyz"
-  }
-}
-{
-  "kernel": {
-    "name": "GengKapak",
-    "version": "r239",
-    "link": "https://github.com/AnggaR96s/FKMStuff/raw/main/JandaX-MaximumSlav-joyeuse-RS-2022-02-03_19-06-54.zip",
-    "changelog_url": "https://raw.githubusercontent.com/AnggaR96s/FKMStuff/main/Changelog.txt",
-    "date": "2022-02-03",
-    "sha1": ""
+    "date": "2022-02-03",
+    "sha1": "6a5cf4ee5924b84178ff3b041990535364c374b2"
   },
   "support": {
     "link": "https://paypal.me/anggaxyz"
