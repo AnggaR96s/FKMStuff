@@ -1,5 +1,5 @@
+2b2eeba64 Makefile: Pass `--lto-o2` to LDFLAGS when CONFIG_LTO_CLANG is set
+c4dfd58ed ANDROID: incremental-fs: remove index and incomplete dir on umount
+a2b00879b BACKPORT: ipv6: Implement draft-ietf-6man-rfc4941bis
 512789d3c Merge tag 'LA.UM.9.1.r1-11600-SMxxx0.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/fw-api into S
 6f0c9b34a Merge tag 'LA.UM.9.1.r1-11600-SMxxx0.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-3.0 into S
-334bfe23c Merge tag 'LA.UM.9.1.r1-11600-SMxxx0.0' of https://source.codeaurora.org/quic/la/kernel/msm-4.14 into S
-b73d90181 drm/msm: dsi_display: Prevent GPU boosting with battery saver
-1631b343b adreno_tz: Fix GPU target frequency calculation for high refresh rates
