@@ -1,5 +1,5 @@
-2b2eeba64 Makefile: Pass `--lto-o2` to LDFLAGS when CONFIG_LTO_CLANG is set
-c4dfd58ed ANDROID: incremental-fs: remove index and incomplete dir on umount
-a2b00879b BACKPORT: ipv6: Implement draft-ietf-6man-rfc4941bis
-512789d3c Merge tag 'LA.UM.9.1.r1-11600-SMxxx0.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/fw-api into S
-6f0c9b34a Merge tag 'LA.UM.9.1.r1-11600-SMxxx0.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-3.0 into S
+f5c865c16 Revert "arm64: Increase the max granular size"
+117989499 Revert "arm64: cache: Lower ARCH_DMA_MINALIGN to 64 (L1_CACHE_BYTES)"
+debb45202 of: Keep the phandle cache around after boot
+9ab222720 ion: Cache the result from ion_cma_has_kernel_mapping()
+395f8efaf pstore: Dump ramoops even when kernel doesn't crash
