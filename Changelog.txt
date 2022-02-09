@@ -1,5 +1,5 @@
-f5c865c16 Revert "arm64: Increase the max granular size"
-117989499 Revert "arm64: cache: Lower ARCH_DMA_MINALIGN to 64 (L1_CACHE_BYTES)"
-debb45202 of: Keep the phandle cache around after boot
-9ab222720 ion: Cache the result from ion_cma_has_kernel_mapping()
-395f8efaf pstore: Dump ramoops even when kernel doesn't crash
+a414eb721 joyeuse_defconfig: regenerate
+5df431ed6 Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into S
+21ad423fe Linux 4.14.265
+19cfb8772 ext4: fix error handling in ext4_restore_inline_data()
+89b53c8fa EDAC/xgene: Fix deferred probing
