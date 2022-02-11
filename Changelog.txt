@@ -1,5 +1,5 @@
-a414eb721 joyeuse_defconfig: regenerate
-5df431ed6 Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into S
-21ad423fe Linux 4.14.265
-19cfb8772 ext4: fix error handling in ext4_restore_inline_data()
-89b53c8fa EDAC/xgene: Fix deferred probing
+f8920d2af joyeuse_defconfig: regenerate
+52bb38248 Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into S
+8034e99d1 Linux 4.14.266
+fde4ddead tipc: improve size validations for received domain records
+92f72aed8 x86/mm, mm/hwpoison: Fix the unmap kernel 1:1 pages check condition
