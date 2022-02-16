@@ -1,5 +1,5 @@
-f8920d2af joyeuse_defconfig: regenerate
-52bb38248 Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into S
-8034e99d1 Linux 4.14.266
-fde4ddead tipc: improve size validations for received domain records
-92f72aed8 x86/mm, mm/hwpoison: Fix the unmap kernel 1:1 pages check condition
+baa718eca joyeuse_defconfig: regenerate
+44cda7cb6 Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into S
+a35d65bed Linux 4.14.267
+5d76ed422 perf: Fix list corruption in perf_cgroup_switch()
+83e80414c hwmon: (dell-smm) Speed up setting of fan speed
