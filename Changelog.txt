@@ -1,5 +1,5 @@
-baa718eca joyeuse_defconfig: regenerate
-44cda7cb6 Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into S
-a35d65bed Linux 4.14.267
-5d76ed422 perf: Fix list corruption in perf_cgroup_switch()
-83e80414c hwmon: (dell-smm) Speed up setting of fan speed
+dfa286957 joyeuse_defconfig: regenerate
+0a9cf306e Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into S
+fa33f9094 Linux 4.14.268
+f0c3ec674 net: macb: Align the dma and coherent dma masks
+3b448cd82 net: usb: qmi_wwan: Add support for Dell DW5829e
