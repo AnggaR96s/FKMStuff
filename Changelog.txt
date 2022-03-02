@@ -1,5 +1,5 @@
-dfa286957 joyeuse_defconfig: regenerate
-0a9cf306e Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into S
-fa33f9094 Linux 4.14.268
-f0c3ec674 net: macb: Align the dma and coherent dma masks
-3b448cd82 net: usb: qmi_wwan: Add support for Dell DW5829e
+6741fbf9e Revert "scripts/mkcompile_h: increase UTS_LEN to 128"
+dcb808878 joyeuse_defconfig: regenerate
+10ad4e3e9 Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into S
+a9d682711 scripts/mkcompile_h: increase UTS_LEN to 128
+e853993d2 Linux 4.14.269
