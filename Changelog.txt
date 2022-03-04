@@ -1,5 +1,5 @@
+eeef66bb6 joyeuse_defconfig: regenerate
+0499ad9a0 f2fs: Fix b1c9ab51c55e2801715e88da2914d4585d818f37
+b1c9ab51c Merge branch 'linux-4.14.y' of https://github.com/jaegeuk/f2fs-stable into S
 550966b15 FROMLIST: fuse: Fix crediantials leak in passthrough read_iter
 b76a3628c FROMLIST: fuse: Introduce passthrough for mmap
-95e6bf1a5 FROMLIST: fuse: Use daemon creds in passthrough mode
-2268ef82a FROMLIST: fuse: Handle asynchronous read and write in passthrough
-647fa2a1f FROMLIST: fuse: Introduce synchronous read and write for passthrough
