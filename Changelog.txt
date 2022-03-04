@@ -1,5 +1,5 @@
-6741fbf9e Revert "scripts/mkcompile_h: increase UTS_LEN to 128"
-dcb808878 joyeuse_defconfig: regenerate
-10ad4e3e9 Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into S
-a9d682711 scripts/mkcompile_h: increase UTS_LEN to 128
-e853993d2 Linux 4.14.269
+550966b15 FROMLIST: fuse: Fix crediantials leak in passthrough read_iter
+b76a3628c FROMLIST: fuse: Introduce passthrough for mmap
+95e6bf1a5 FROMLIST: fuse: Use daemon creds in passthrough mode
+2268ef82a FROMLIST: fuse: Handle asynchronous read and write in passthrough
+647fa2a1f FROMLIST: fuse: Introduce synchronous read and write for passthrough
