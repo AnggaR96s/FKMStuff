@@ -1,5 +1,5 @@
-eeef66bb6 joyeuse_defconfig: regenerate
-0499ad9a0 f2fs: Fix b1c9ab51c55e2801715e88da2914d4585d818f37
-b1c9ab51c Merge branch 'linux-4.14.y' of https://github.com/jaegeuk/f2fs-stable into S
-550966b15 FROMLIST: fuse: Fix crediantials leak in passthrough read_iter
-b76a3628c FROMLIST: fuse: Introduce passthrough for mmap
+753f8b74d joyeuse_defconfig: enable SDFAT_FS
+395d051fd fs: sdfat: Update to version 2.4.5
+0ace891a6 fs: sdfat: Update to version 2.3.0
+709b14cb4 fs: sdfat: Update to version 2.1.8
+4f8b12eb1 fs: sdfat: Add MODULE_ALIAS_FS for supported filesystems
