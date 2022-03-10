@@ -1,5 +1,5 @@
+d68adcdf9 f2fs: use spin_lock to avoid hang
+2fc4038f9 f2fs: don't get FREEZE lock in f2fs_evict_inode in frozen fs
+3f95b3ed0 f2fs: remove unnecessary read for F2FS_FITS_IN_INODE
+bc5c4398c Revert "ANDROID: incremental-fs: fix mount_fs issue"
 9e4a8927d joyeuse_defconfig: regenerate
-da60fcde1 Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into S
-c9fcc1545 Linux 4.14.270
-db167d37f hamradio: fix macro redefine warning
-3210dd5bc net: dcb: disable softirqs in dcbnl_flush_dev()
