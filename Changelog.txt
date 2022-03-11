@@ -1,5 +1,5 @@
-d68adcdf9 f2fs: use spin_lock to avoid hang
-2fc4038f9 f2fs: don't get FREEZE lock in f2fs_evict_inode in frozen fs
-3f95b3ed0 f2fs: remove unnecessary read for F2FS_FITS_IN_INODE
-bc5c4398c Revert "ANDROID: incremental-fs: fix mount_fs issue"
-9e4a8927d joyeuse_defconfig: regenerate
+acd71e397 joyeuse_defconfig: regenerate
+d0a2b2a05 Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into S
+af48f51cb Linux 4.14.271
+1b9f41157 xen/netfront: react properly to failing gnttab_end_foreign_access_ref()
+94b8ccbcc xen/gnttab: fix gnttab_end_foreign_access() without page specified
