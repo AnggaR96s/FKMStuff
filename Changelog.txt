@@ -1,5 +1,5 @@
-acd71e397 joyeuse_defconfig: regenerate
-d0a2b2a05 Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into S
-af48f51cb Linux 4.14.271
-1b9f41157 xen/netfront: react properly to failing gnttab_end_foreign_access_ref()
-94b8ccbcc xen/gnttab: fix gnttab_end_foreign_access() without page specified
+cd4122e04 localversion: Bog Volya
+1face4d25 binder: Set binder_debug_mask=0 to suppress logging
+a3f5267ab android: binder: Rate-limit debug and userspace triggered err msgs
+bb19cf881 ANDROID: binder: retry security_secid_to_secctx()
+10c7ca409 UPSTREAM: binder: Return EFAULT if we fail BINDER_ENABLE_ONEWAY_SPAM_DETECTION
