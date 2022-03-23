@@ -1,5 +1,5 @@
-72b888a72 scsi: ufs: use WQ_HIGHPRI for gating work
-8d561737d loop: Select I/O scheduler 'none' from inside add_disk()
-fba8936d3 BACKPORT: loop: change queue block size to match when using DIO
-f2628c2f6 UPSTREAM: loop: Set correct device size when using LOOP_CONFIGURE
-1423bd3b1 BACKPORT: loop: Fix wrong masking of status flags
+0edc939aa joyeuse_defconfig: regenerate
+0a32a4871 Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into S
+004bfaafc Linux 4.14.273
+01064d855 perf symbols: Fix symbol size calculation condition
+fc8033a55 Input: aiptek - properly check endpoint type
