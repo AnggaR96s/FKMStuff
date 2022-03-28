@@ -1,5 +1,5 @@
-0edc939aa joyeuse_defconfig: regenerate
-0a32a4871 Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into S
-004bfaafc Linux 4.14.273
-01064d855 perf symbols: Fix symbol size calculation condition
-fc8033a55 Input: aiptek - properly check endpoint type
+f2ab04907 joyeuse_defconfig: regenerate
+fe993cc8c Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into S
+af1af6ebc Linux 4.14.274
+f25366d9a llc: only change llc->dev when bind() succeeds
+c1d9c3628 mac80211: fix potential double free on mesh join
