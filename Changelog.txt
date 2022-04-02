@@ -1,5 +1,5 @@
-57616a19c joyeuse_defconfig: regenerate
-91dc71493 zram: switch to 64-bit hash for dedup
-7f0a0294d zram: use xxhash instead of jhash in dedup
-9c30783fe xxhash: inline round() functions
-ded2513e2 xxhash: replace copy_state() wrappers with macros
+5edd2ab66 FixUp a8276c1c95c048a1e17d21f409eeea28a13cad67
+3c5a20385 joyeuse_defconfig: regenerate
+63acd3529 arm64: ssbd: Skip apply_ssbd if not using dynamic mitigation
+ee8a92be0 Revert "arm64: ssbd: Skip apply_ssbd if not using dynamic mitigation"
+1385739c6 arm64: Add missing arm64_update_smccc_conduit
