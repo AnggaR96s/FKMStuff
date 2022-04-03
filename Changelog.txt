@@ -1,5 +1,5 @@
-5edd2ab66 FixUp a8276c1c95c048a1e17d21f409eeea28a13cad67
-3c5a20385 joyeuse_defconfig: regenerate
-63acd3529 arm64: ssbd: Skip apply_ssbd if not using dynamic mitigation
-ee8a92be0 Revert "arm64: ssbd: Skip apply_ssbd if not using dynamic mitigation"
-1385739c6 arm64: Add missing arm64_update_smccc_conduit
+f70060a8c Merge branch 'linux-4.14.y' of https://github.com/jaegeuk/f2fs-stable into S
+501e8e427 joyeuse_defconfig: regenerate
+8c777300b arm64: ssbd: Skip apply_ssbd if not using dynamic mitigation
+f72752893 Revert "arm64: ssbd: Skip apply_ssbd if not using dynamic mitigation"
+2c48c20a1 arm64: Add missing arm64_update_smccc_conduit
