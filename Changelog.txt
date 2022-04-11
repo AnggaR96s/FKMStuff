@@ -1,5 +1,5 @@
+d7edcea3c ANDROID: incremental-fs: limit mount stack depth
+850dde8b1 UPSTREAM: binderfs: use __u32 for device numbers
+258c3c5c6 drivers: get rid about strict-prototypes
+99a8b0ca7 drivers: nfc: fixup strict-prototypes
 52c798552 Merge tag 'LA.UM.9.1.r1-11800-SMxxx0.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/audio-kernel into S
-3af4d8507 Merge tag 'LA.UM.9.1.r1-11800-SMxxx0.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn into S
-69f526655 Merge tag 'LA.UM.9.1.r1-11800-SMxxx0.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/qcacld-3.0 into S
-3520528e5 Merge tag 'LA.UM.9.1.r1-11800-SMxxx0.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/fw-api into S
-7ec379eed Merge tag 'LA.UM.9.1.r1-11800-SMxxx0.0' of https://git.codelinaro.org/clo/la/kernel/msm-4.14 into S
