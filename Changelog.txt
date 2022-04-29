@@ -1,5 +1,5 @@
-d7edcea3c ANDROID: incremental-fs: limit mount stack depth
-850dde8b1 UPSTREAM: binderfs: use __u32 for device numbers
-258c3c5c6 drivers: get rid about strict-prototypes
-99a8b0ca7 drivers: nfc: fixup strict-prototypes
-52c798552 Merge tag 'LA.UM.9.1.r1-11800-SMxxx0.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/audio-kernel into S
+e97c07a53 Derped-af
+08cb1293c Merge branch 'linux-4.14.y' of https://github.com/jaegeuk/f2fs-stable into staging
+0fd09d636 joyeuse_defconfig: regenerate
+4d895dfcc Merge tag 'v4.14.277' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into staging
+e3a56aaad Linux 4.14.277
