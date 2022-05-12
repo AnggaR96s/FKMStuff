@@ -1,5 +1,5 @@
-fff1123d7 Merge branch 'linux-4.14.y' of https://github.com/jaegeuk/f2fs-stable into staging
-f5473f081 joyeuse_defconfig: regenerate
-02d10860a Merge tag 'v4.14.277' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into staging
-e3a56aaad Linux 4.14.277
-1b95e7ffe Revert "net: micrel: fix KS8851_MLL Kconfig"
+2289ce52c joyeuse_defconfig: regenerate
+0a0d79599 Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into S
+569d1abf9 Linux 4.14.278
+1777ae096 PCI: aardvark: Fix reading MSI interrupt number
+e7e0b6204 PCI: aardvark: Clear all MSIs at setup
