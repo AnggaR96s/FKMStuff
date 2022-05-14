@@ -1,5 +1,5 @@
-2289ce52c joyeuse_defconfig: regenerate
-0a0d79599 Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into S
-569d1abf9 Linux 4.14.278
-1777ae096 PCI: aardvark: Fix reading MSI interrupt number
-e7e0b6204 PCI: aardvark: Clear all MSIs at setup
+c53225016 joyeuse_defconfig: Enable Kprofiles and Auto_Kprofiles
+d29439ed0 drivers: devfreq_boost: Skip boosting if Profile is set to Battery Mode
+51628a1d6 Kprofiles: Update copyright
+31b6906e5 Kprofiles: Add screen event awareness to kprofiles_set_mode*()
+d812a0d3d Kprofiles: Fix concurrency issue with kprofiles_set_mode_rollback()
