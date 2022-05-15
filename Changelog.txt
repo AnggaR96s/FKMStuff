@@ -1,5 +1,5 @@
-c53225016 joyeuse_defconfig: Enable Kprofiles and Auto_Kprofiles
-d29439ed0 drivers: devfreq_boost: Skip boosting if Profile is set to Battery Mode
-51628a1d6 Kprofiles: Update copyright
-31b6906e5 Kprofiles: Add screen event awareness to kprofiles_set_mode*()
-d812a0d3d Kprofiles: Fix concurrency issue with kprofiles_set_mode_rollback()
+aa93137f5 joyeuse_defconfig: regenerate
+0171f096f Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into S
+690285a93 Linux 4.14.279
+9508190f3 VFS: Fix memory leak caused by concurrently mounting fs with subtype
+7e9133607 ALSA: pcm: Fix potential AB/BA lock with buffer_mutex and mmap_lock
