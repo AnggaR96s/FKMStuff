@@ -1,5 +1,5 @@
-aa93137f5 joyeuse_defconfig: regenerate
-0171f096f Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into S
-690285a93 Linux 4.14.279
-9508190f3 VFS: Fix memory leak caused by concurrently mounting fs with subtype
-7e9133607 ALSA: pcm: Fix potential AB/BA lock with buffer_mutex and mmap_lock
+370803e84 joyeuse_defconfig: regenerate
+f2577fd24 Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into S
+dffb5c6ff Linux 4.14.280
+bae1a3b8d tty/serial: digicolor: fix possible null-ptr-deref in digicolor_uart_probe()
+1f0f6cff0 ping: fix address binding wrt vrf
