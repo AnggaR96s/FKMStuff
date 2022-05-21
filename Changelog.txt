@@ -1,5 +1,5 @@
-a3c8342dc psi: fix possible trigger missing in the window
-8e28b0f35 psi: Fix PSI_MEM_FULL state when tasks are in memstall and doing reclaim
-693903634 psi: Remove repeated verbose comment
-f324f4abb psi: Fix race between psi_trigger_create/destroy
-bbdc161dc psi: Fix psi state corruption when schedule() races with cgroup move
+0ff7194b6 BACKPORT: net: socket: Increase SOMAXCONN to 4096
+3e09b9b8f kernel: Allow wakeup IRQs to cancel ongoing suspend
+c3e12c5f7 PM / freezer: Abort suspend when there's a wakeup while freezing
+8e48e1a7e PM / suspend: Clear wakeups before running PM callbacks
+c96f63d80 PM / wakeup: Avoid excessive s2idle wake attempts in pm_system_wakeup()
