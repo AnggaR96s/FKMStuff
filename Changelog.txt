@@ -1,5 +1,5 @@
-e4a6385c7 joyeuse_defconfig: Enable dynamic debug
-370803e84 joyeuse_defconfig: regenerate
-f2577fd24 Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into S
-dffb5c6ff Linux 4.14.280
-bae1a3b8d tty/serial: digicolor: fix possible null-ptr-deref in digicolor_uart_probe()
+a3c8342dc psi: fix possible trigger missing in the window
+8e28b0f35 psi: Fix PSI_MEM_FULL state when tasks are in memstall and doing reclaim
+693903634 psi: Remove repeated verbose comment
+f324f4abb psi: Fix race between psi_trigger_create/destroy
+bbdc161dc psi: Fix psi state corruption when schedule() races with cgroup move
