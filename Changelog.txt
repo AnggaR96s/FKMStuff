@@ -1,5 +1,5 @@
-0ff7194b6 BACKPORT: net: socket: Increase SOMAXCONN to 4096
-3e09b9b8f kernel: Allow wakeup IRQs to cancel ongoing suspend
-c3e12c5f7 PM / freezer: Abort suspend when there's a wakeup while freezing
-8e48e1a7e PM / suspend: Clear wakeups before running PM callbacks
-c96f63d80 PM / wakeup: Avoid excessive s2idle wake attempts in pm_system_wakeup()
+a72453382 f2fs: fix typo in comment
+438085d3b f2fs: make f2fs_read_inline_data() more readable
+b38d90b9d subsystem_restart: Always performs soft resets when subsystems crash
+344cb0053 soc: qcom: ssr: Prevent kernel panic caused by modem crash
+cf84265a6 icnss: Fix suspend errors caused by wrong paired PM operation
