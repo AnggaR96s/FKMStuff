@@ -1,5 +1,5 @@
-a72453382 f2fs: fix typo in comment
-438085d3b f2fs: make f2fs_read_inline_data() more readable
-b38d90b9d subsystem_restart: Always performs soft resets when subsystems crash
-344cb0053 soc: qcom: ssr: Prevent kernel panic caused by modem crash
-cf84265a6 icnss: Fix suspend errors caused by wrong paired PM operation
+14357c39d joyeuse_defconfig: regenerate
+dc08d2eea Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into S
+501eec4f9 Linux 4.14.281
+aaf166f37 Reinstate some of "swiotlb: rework "fix info leak with DMA_FROM_DEVICE""
+971e5dadf swiotlb: fix info leak with DMA_FROM_DEVICE
