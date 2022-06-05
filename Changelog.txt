@@ -1,5 +1,5 @@
-a1c429ff9 drivers: i2c: i2c-core-base: Specify sync probe for dummy i2c driver
-55172a8fd i2c_geni: Kill error code spam
-8e8883e11 mm: wakeup kswapd for order-0 allocation
-ed652508d qcacld-3.0: Fix null pointer dereference in bus suspend
-edfa0bf32 qcacld-3.0: Flush the idle shutdown before the dsc op start
+cbc67e01e f2fs/sysfs: Apply RO macro on gc_urgent_sleep_time
+f8238ea14 f2fs/sysfs: Introduce a Read-Only attribute macro
+9b8d15938 f2fs/gc: Reduce GC thread urgent sleep time to 50ms
+9a5b599a4 Merge branch 'linux-4.14.y' of https://github.com/jaegeuk/f2fs-stable into S
+5addba95d f2fs: attach inline_data after setting compression
