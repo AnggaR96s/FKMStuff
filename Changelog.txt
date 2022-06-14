@@ -1,5 +1,5 @@
-0e7104b91 joyeuse_defconfig: regenerate
-472a3604d Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into S
-b8f3be299 Linux 4.14.282
-92cc6da11 bpf: Enlarge offset check value to INT_MAX in bpf_skb_{load,store}_bytes
-2ec65dc66 NFSD: Fix possible sleep during nfsd4_release_lockowner()
+a5dcc6cd0 joyeuse_defconfig: regenerate
+90a7460ca Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into S
+1ccc597f8 Linux 4.14.283
+427268774 tcp: fix tcp_mtup_probe_success vs wrong snd_cwnd
+c1f61bc67 PCI: qcom: Fix unbalanced PHY init on probe errors
