@@ -1,5 +1,5 @@
-224ed3025 Revert "usb: gadget: f_qdss: Add ipc logging for qdss driver"
-97c132e6c joyeuse_defconfig: regenerate
-b35d5e972 BACKPORT: psi: Fix uaf issue when psi trigger is destroyed while being polled
-4ac09c8cf Revert "psi: Fix cpu.pressure for cpu.max and competing cgroups"
-9f730a3e9 Revert "psi: Optimize switching tasks inside shared cgroups"
+774cc9084 [SQUASH]: revert LRNG
+58555b029 joyeuse_defconfig: Trust the bootloader to initialize Linux's CRNG
+b8a33ccce wireguard: Rename `blake2s_*` to `wg_blake2s_*`
+6b24aa09b wireguard: Adapt to latest CRNG changes
+ce860a725 lib/vsprintf: Adapt `fill_random_ptr_key()` to standard notifier
