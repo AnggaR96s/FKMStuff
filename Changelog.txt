@@ -1,5 +1,5 @@
-774cc9084 [SQUASH]: revert LRNG
-58555b029 joyeuse_defconfig: Trust the bootloader to initialize Linux's CRNG
-b8a33ccce wireguard: Rename `blake2s_*` to `wg_blake2s_*`
-6b24aa09b wireguard: Adapt to latest CRNG changes
-ce860a725 lib/vsprintf: Adapt `fill_random_ptr_key()` to standard notifier
+d40fc3eab Merge tag 'v1.0.20220627' of git://git.zx2c4.com/wireguard-linux-compat into S
+18fbcd68a version: bump
+3ec3e822b compat: handle backported rng and blake2s
+1629a35f3 localversion: ночной
+18e2e4caf Merge branch 'linux-4.14.y' of https://github.com/jaegeuk/f2fs-stable into S
