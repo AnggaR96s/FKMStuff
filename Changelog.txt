@@ -1,5 +1,5 @@
-b032efd73 thermal: Increase thermal trip points to 16
-a44ed6372 Merge branch 'linux-4.14.y' of https://github.com/jaegeuk/f2fs-stable into S
-44e04e19a joyeuse_defconfig: regenerate
-b331f1e89 Merge tag 'v4.14.286' of https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into S
-e428683fd Merge tag 'v1.0.20220627' of git://git.zx2c4.com/wireguard-linux-compat into S
+854c38da2 joyeuse_defconfig: regenerate
+cd9752010 Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into S
+1048779a1 Linux 4.14.287
+e65a39943 net: usb: qmi_wwan: add Telit 0x1070 composition
+1d30cf5b9 net: usb: qmi_wwan: add Telit 0x1060 composition
