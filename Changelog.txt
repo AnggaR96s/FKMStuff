@@ -1,5 +1,5 @@
+0b8c79114 msm: vidc: reduce max_packets count to 480
 5e4a86bb1 joyeuse_defconfig: regenerate
 40f68e2b8 Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into S
 424a46ea0 Linux 4.14.288
 83b1e3ca6 dmaengine: ti: Add missing put_device in ti_dra7_xbar_route_allocate
-61b4ef19c dmaengine: ti: Fix refcount leak in ti_dra7_xbar_route_allocate
