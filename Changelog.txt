@@ -1,5 +1,5 @@
-0b8c79114 msm: vidc: reduce max_packets count to 480
-5e4a86bb1 joyeuse_defconfig: regenerate
-40f68e2b8 Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into S
-424a46ea0 Linux 4.14.288
-83b1e3ca6 dmaengine: ti: Add missing put_device in ti_dra7_xbar_route_allocate
+ad51696c5 joyeuse_defconfig: regenerate
+bb8304fc8 Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into S
+59957d8fe ANDROID: cgroup: Fix for a partially backported patch
+9c3bf9cf3 Linux 4.14.289
+d3892a747 can: m_can: m_can_tx_handler(): fix use after free of skb
