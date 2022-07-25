@@ -1,5 +1,5 @@
-ad51696c5 joyeuse_defconfig: regenerate
-bb8304fc8 Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into S
-59957d8fe ANDROID: cgroup: Fix for a partially backported patch
-9c3bf9cf3 Linux 4.14.289
-d3892a747 can: m_can: m_can_tx_handler(): fix use after free of skb
+6e3453c6f FROMGIT: arm64: fix oops in concurrently setting insn_emulation sysctls
+1155ce0c2 joyeuse_defconfig: regenerate
+79d809f0b f2fs: Demote GC thread to idle scheduler class
+a63ccdd65 f2fs: set ioprio of GC kthread to idle
+9c2a08096 f2fs/sysfs: Apply RO macro on gc_urgent_sleep_time
