@@ -1,10 +1,10 @@
-bd53908d4d34 ANDROID: arch: arm64: Increase kernel command line size
-41ec685fa143 mm/slab_common: Align all caches' objects to hardware cachelines
-60e2829e3f86 slimbus: slim-msm-ngd: Propagate tip changes from 4.19
-090ee5133994 power: supply: Increase threshold for detecting charge type
-bff0bace55cb power: smb5: Rerun APSD to ensure proper charger detection
-53e888062e10 msm: camera: cci: Fix logic to update cci clk freq
-f77360a0b6f1 msm: camera: Fix out of memory issue
-2896cf643e7c Revert "msm: camera: eeprom: Fix OOB read/write in EEPROM"
-507b0982a872 Revert "msm: camera: eeprom: Fix OOB condition for memory map count"
-b7ad97f9d581 msm: camera: Fix EEPROM device handle leak.
+067d00b614f9 kernelsu: hardcode update kernelsu version
+7ec04d7bfc47 [REAPPLY] kernelsu: we're non GKI and non KPROBES build
+91f4ae36db63 kernelsu: sync with repo   from https://github.com/tiann/KernelSU/tree/main/kernel  Referenced from https://kernelsu.org/guide/how-to-integrate-for-non-gki.html#integrate-with-kprobe  and edited a bit to be compatible for CI builds
+126ef16f9bbd joyeuse_defconfig: regenerate
+fd95e71b9959 Merge branch 'android-4.14-stable' of https://android.googlesource.com/kernel/common
+67419faf9ff6 Merge 4.14.328 into android-4.14-stable
+89d93e9d9f32 Linux 4.14.328
+be91967244be Bluetooth: hci_event: Fix using memcmp when comparing keys
+c3830fca233b Bluetooth: hci_sock: Correctly bounds check and pad HCI_MON_NEW_INDEX name
+98e48a4fa0c2 Bluetooth: hci_sock: fix slab oob read in create_monitor_event
