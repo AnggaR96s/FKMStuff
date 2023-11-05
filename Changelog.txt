@@ -1,10 +1,10 @@
+f656fc08be4c Merge tag 'LA.UM.9.1.r1-14600-SMxxx0.QSSI14.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/audio-kernel
+620d8a22b766 Merge tag 'LA.UM.9.1.r1-14600-SMxxx0.QSSI14.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/fw-api into master
+ae55956d848e Merge tag 'LA.UM.9.1.r1-14600-SMxxx0.QSSI14.0' of https://git.codelinaro.org/clo/la/kernel/msm-4.14
+d0ee2c9912dd Revert "dts : compile only joyeuse"
+c8b6e1d99676 Revert "init/main: fix implicit declaration"
 067d00b614f9 kernelsu: hardcode update kernelsu version
 7ec04d7bfc47 [REAPPLY] kernelsu: we're non GKI and non KPROBES build
 91f4ae36db63 kernelsu: sync with repo   from https://github.com/tiann/KernelSU/tree/main/kernel  Referenced from https://kernelsu.org/guide/how-to-integrate-for-non-gki.html#integrate-with-kprobe  and edited a bit to be compatible for CI builds
 126ef16f9bbd joyeuse_defconfig: regenerate
 fd95e71b9959 Merge branch 'android-4.14-stable' of https://android.googlesource.com/kernel/common
-67419faf9ff6 Merge 4.14.328 into android-4.14-stable
-89d93e9d9f32 Linux 4.14.328
-be91967244be Bluetooth: hci_event: Fix using memcmp when comparing keys
-c3830fca233b Bluetooth: hci_sock: Correctly bounds check and pad HCI_MON_NEW_INDEX name
-98e48a4fa0c2 Bluetooth: hci_sock: fix slab oob read in create_monitor_event
