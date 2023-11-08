@@ -1,10 +1,10 @@
-f656fc08be4c Merge tag 'LA.UM.9.1.r1-14600-SMxxx0.QSSI14.0' of https://git.codelinaro.org/clo/la/platform/vendor/opensource/audio-kernel
-620d8a22b766 Merge tag 'LA.UM.9.1.r1-14600-SMxxx0.QSSI14.0' of https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/wlan/fw-api into master
-ae55956d848e Merge tag 'LA.UM.9.1.r1-14600-SMxxx0.QSSI14.0' of https://git.codelinaro.org/clo/la/kernel/msm-4.14
-d0ee2c9912dd Revert "dts : compile only joyeuse"
-c8b6e1d99676 Revert "init/main: fix implicit declaration"
-067d00b614f9 kernelsu: hardcode update kernelsu version
-7ec04d7bfc47 [REAPPLY] kernelsu: we're non GKI and non KPROBES build
-91f4ae36db63 kernelsu: sync with repo   from https://github.com/tiann/KernelSU/tree/main/kernel  Referenced from https://kernelsu.org/guide/how-to-integrate-for-non-gki.html#integrate-with-kprobe  and edited a bit to be compatible for CI builds
-126ef16f9bbd joyeuse_defconfig: regenerate
-fd95e71b9959 Merge branch 'android-4.14-stable' of https://android.googlesource.com/kernel/common
+acf61e773eb4 joyeuse_defconfig: regenerate
+abbf53c801e3 Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux
+3b717ad0e90f Linux 4.14.329
+b32baccfda9f tty: 8250: Add support for Intashield IS-100
+17b3fa165577 tty: 8250: Add support for Brainboxes UP cards
+a689cdaffddb tty: 8250: Add support for additional Brainboxes UC cards
+06a27a8fd65b tty: 8250: Remove UC-257 and UC-431
+6af059e75607 usb: storage: set 1.50 as the lower bcdDevice for older "Super Top" compatibility
+25f9656c87d1 PCI: Prevent xHCI driver from claiming AMD VanGogh USB3 DRD device
+af79ea9a2443 vc_screen: move load of struct vc_data pointer in vcs_read() to avoid UAF
