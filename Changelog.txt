@@ -1,10 +1,10 @@
-acf61e773eb4 joyeuse_defconfig: regenerate
-abbf53c801e3 Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux
-3b717ad0e90f Linux 4.14.329
-b32baccfda9f tty: 8250: Add support for Intashield IS-100
-17b3fa165577 tty: 8250: Add support for Brainboxes UP cards
-a689cdaffddb tty: 8250: Add support for additional Brainboxes UC cards
-06a27a8fd65b tty: 8250: Remove UC-257 and UC-431
-6af059e75607 usb: storage: set 1.50 as the lower bcdDevice for older "Super Top" compatibility
-25f9656c87d1 PCI: Prevent xHCI driver from claiming AMD VanGogh USB3 DRD device
-af79ea9a2443 vc_screen: move load of struct vc_data pointer in vcs_read() to avoid UAF
+a948be4e0a31 joyeuse_defconfig: regenerate
+40d858a4d8b3 Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux
+bfa43eeca479 Linux 4.14.330
+33690eb1a89a btrfs: use u64 for buffer sizes in the tree search ioctls
+53409f167465 Revert "mmc: core: Capture correct oemid-bits for eMMC cards"
+93053204fd2d fbdev: fsl-diu-fb: mark wr_reg_wa() static
+841cce409bb7 netfilter: xt_recent: fix (increase) ipv6 literal buffer length
+03a3d636fa85 tg3: power down device only on SYSTEM_POWER_OFF
+cc0e7678af9c dccp/tcp: Call security_inet_conn_request() after setting IPv6 addresses.
+5174aa9bca8a dccp: Call security_inet_conn_request() after setting IPv4 addresses.
