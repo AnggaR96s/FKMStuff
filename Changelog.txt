@@ -1,10 +1,10 @@
-a948be4e0a31 joyeuse_defconfig: regenerate
-40d858a4d8b3 Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux
-bfa43eeca479 Linux 4.14.330
-33690eb1a89a btrfs: use u64 for buffer sizes in the tree search ioctls
-53409f167465 Revert "mmc: core: Capture correct oemid-bits for eMMC cards"
-93053204fd2d fbdev: fsl-diu-fb: mark wr_reg_wa() static
-841cce409bb7 netfilter: xt_recent: fix (increase) ipv6 literal buffer length
-03a3d636fa85 tg3: power down device only on SYSTEM_POWER_OFF
-cc0e7678af9c dccp/tcp: Call security_inet_conn_request() after setting IPv6 addresses.
-5174aa9bca8a dccp: Call security_inet_conn_request() after setting IPv4 addresses.
+71209ac00939 joyeuse_defconfig: regenerate
+7a8c52416b69 Merge branch 'android-4.14-stable' of https://android.googlesource.com/kernel/common
+52d13de27247 Merge 4.14.331 into android-4.14-stable
+c41bab81ed7c Linux 4.14.331
+42c50c7efcd1 net: sched: fix race condition in qdisc_graft()
+0101448977ef scsi: virtio_scsi: limit number of hw queues by nr_cpu_ids
+62a78cf03383 ext4: remove gdb backup copy for meta bg in setup_new_flex_group_blocks
+9f12769f3b63 ext4: correct return value of ext4_convert_meta_bg
+90d1ea683ae5 ext4: correct offset of gdb backup in non meta_bg group to update_backups
+32829e97550e ext4: apply umask if ACL support is disabled
