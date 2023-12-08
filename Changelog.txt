@@ -1,10 +1,10 @@
-71209ac00939 joyeuse_defconfig: regenerate
-7a8c52416b69 Merge branch 'android-4.14-stable' of https://android.googlesource.com/kernel/common
-52d13de27247 Merge 4.14.331 into android-4.14-stable
-c41bab81ed7c Linux 4.14.331
-42c50c7efcd1 net: sched: fix race condition in qdisc_graft()
-0101448977ef scsi: virtio_scsi: limit number of hw queues by nr_cpu_ids
-62a78cf03383 ext4: remove gdb backup copy for meta bg in setup_new_flex_group_blocks
-9f12769f3b63 ext4: correct return value of ext4_convert_meta_bg
-90d1ea683ae5 ext4: correct offset of gdb backup in non meta_bg group to update_backups
-32829e97550e ext4: apply umask if ACL support is disabled
+242ae5d0f60c joyeuse_defconfig: regenerate
+4d112d97799e Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux
+ae1952ac1aac Linux 4.14.332
+c6e94a142760 driver core: Release all resources during unbind before updating device links
+1d91522c1ea3 net: ravb: Start TX queues after HW initialization succeeded
+87aaadbf490f ravb: Fix races between ravb_tx_timeout_work() and net related ops
+be70b329c7fc ipv4: igmp: fix refcnt uaf issue when receiving igmp query packet
+b93441c3125c btrfs: send: ensure send_fd is writable
+2590e30370a0 btrfs: fix off-by-one when checking chunk map includes logical address
+d5103edac4af powerpc: Don't clobber f0/vs0 during fp|altivec register save
