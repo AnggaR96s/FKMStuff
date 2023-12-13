@@ -1,10 +1,10 @@
-242ae5d0f60c joyeuse_defconfig: regenerate
-4d112d97799e Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux
-ae1952ac1aac Linux 4.14.332
-c6e94a142760 driver core: Release all resources during unbind before updating device links
-1d91522c1ea3 net: ravb: Start TX queues after HW initialization succeeded
-87aaadbf490f ravb: Fix races between ravb_tx_timeout_work() and net related ops
-be70b329c7fc ipv4: igmp: fix refcnt uaf issue when receiving igmp query packet
-b93441c3125c btrfs: send: ensure send_fd is writable
-2590e30370a0 btrfs: fix off-by-one when checking chunk map includes logical address
-d5103edac4af powerpc: Don't clobber f0/vs0 during fp|altivec register save
+56b7bb20c949 joyeuse_defconfig: regenerate
+c74d42153fe2 Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux
+27972f327646 Linux 4.14.333
+d9478fe0a89b drop_monitor: Require 'CAP_SYS_ADMIN' when joining "events" group
+fe3c8a71cbda psample: Require 'CAP_NET_ADMIN' when joining "packets" group
+eddc6121ec70 genetlink: add CAP_NET_ADMIN test for multicast bind
+ab9991aabd7a netlink: don't call ->netlink_bind with table lock held
+5c18041b6546 nilfs2: fix missing error check for sb_set_blocksize call
+e42b3e30f13d KVM: s390/mm: Properly reset no-dat
+061a0a3a8dc1 serial: 8250_omap: Add earlycon support for the AM654 UART controller
