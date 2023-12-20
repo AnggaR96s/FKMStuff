@@ -1,10 +1,10 @@
-56b7bb20c949 joyeuse_defconfig: regenerate
-c74d42153fe2 Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux
-27972f327646 Linux 4.14.333
-d9478fe0a89b drop_monitor: Require 'CAP_SYS_ADMIN' when joining "events" group
-fe3c8a71cbda psample: Require 'CAP_NET_ADMIN' when joining "packets" group
-eddc6121ec70 genetlink: add CAP_NET_ADMIN test for multicast bind
-ab9991aabd7a netlink: don't call ->netlink_bind with table lock held
-5c18041b6546 nilfs2: fix missing error check for sb_set_blocksize call
-e42b3e30f13d KVM: s390/mm: Properly reset no-dat
-061a0a3a8dc1 serial: 8250_omap: Add earlycon support for the AM654 UART controller
+c237e292705b joyeuse_defconfig: regenerate
+92c32f7f031d Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux
+d05fea77e51c Linux 4.14.334
+75fbe0d9d54d powerpc/ftrace: Fix stack teardown in ftrace_no_trace
+ae9be850788d powerpc/ftrace: Create a dummy stackframe to fix stack unwind
+321dca2afdc0 ring-buffer: Fix memory leak of free page
+4d71b11b02e1 team: Fix use-after-free when an option instance allocation fails
+409b04824eba ext4: prevent the normalized size from exceeding EXT_MAX_BLOCKS
+7327aea5ac37 HID: hid-asus: add const to read-only outgoing usb buffer
+d55bdeff61b3 net: usb: qmi_wwan: claim interface 4 for ZTE MF290
