@@ -1,3 +1,6 @@
+f7ab6d0b130d kernelsu: hardcode update kernelsu version
+26a5a627336c [REAPPLY] kernelsu: we're non GKI and non KPROBES build
+628b487bea13 kernelsu: sync with repo   from https://github.com/tiann/KernelSU/tree/main/kernel  Referenced from https://kernelsu.org/guide/how-to-integrate-for-non-gki.html#integrate-with-kprobe  and edited a bit to be compatible for CI builds
 c237e292705b joyeuse_defconfig: regenerate
 92c32f7f031d Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux
 d05fea77e51c Linux 4.14.334
@@ -5,6 +8,3 @@ d05fea77e51c Linux 4.14.334
 ae9be850788d powerpc/ftrace: Create a dummy stackframe to fix stack unwind
 321dca2afdc0 ring-buffer: Fix memory leak of free page
 4d71b11b02e1 team: Fix use-after-free when an option instance allocation fails
-409b04824eba ext4: prevent the normalized size from exceeding EXT_MAX_BLOCKS
-7327aea5ac37 HID: hid-asus: add const to read-only outgoing usb buffer
-d55bdeff61b3 net: usb: qmi_wwan: claim interface 4 for ZTE MF290
