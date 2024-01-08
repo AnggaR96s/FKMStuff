@@ -1,10 +1,10 @@
-f7ab6d0b130d kernelsu: hardcode update kernelsu version
-26a5a627336c [REAPPLY] kernelsu: we're non GKI and non KPROBES build
-628b487bea13 kernelsu: sync with repo   from https://github.com/tiann/KernelSU/tree/main/kernel  Referenced from https://kernelsu.org/guide/how-to-integrate-for-non-gki.html#integrate-with-kprobe  and edited a bit to be compatible for CI builds
-c237e292705b joyeuse_defconfig: regenerate
-92c32f7f031d Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux
-d05fea77e51c Linux 4.14.334
-75fbe0d9d54d powerpc/ftrace: Fix stack teardown in ftrace_no_trace
-ae9be850788d powerpc/ftrace: Create a dummy stackframe to fix stack unwind
-321dca2afdc0 ring-buffer: Fix memory leak of free page
-4d71b11b02e1 team: Fix use-after-free when an option instance allocation fails
+17e8e24373e8 joyeuse_defconfig: regenerate
+2700f040a81d Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux
+11fc60f0cd74 Linux 4.14.335
+3a01c48e7a4b block: Don't invalidate pagecache for invalid falloc modes
+cb2b974ad57c dm-integrity: don't modify bio's immutable bio_vec in integrity_metadata()
+73bee1209302 net: rfkill: gpio: set GPIO direction
+21d33e353fb1 net: 9p: avoid freeing uninit memory in p9pdu_vreadf
+3abc53a64e0a Bluetooth: hci_event: Fix not checking if HCI_OP_INQUIRY has been sent
+54fdb2637254 USB: serial: option: add Quectel RM500Q R13 firmware support
+299d5683269a USB: serial: option: add Foxconn T99W265 with new baseline
