@@ -1,11 +1,11 @@
 {
   "kernel": {
     "name": "DeathRhythm",
-    "version": "80",
-    "link": "https://sourceforge.net/projects/gengkapak/files/Kernel/DeathRhythm/DeathRhythm-joyeuse-20240108-1217.zip/download",
+    "version": "81",
+    "link": "https://sourceforge.net/projects/gengkapak/files/Kernel/DeathRhythm/DeathRhythm-joyeuse-20240111-1129.zip/download",
     "changelog_url": "https://github.com/AnggaR96s/FKMStuff/raw/main/Changelog.txt",
-    "date": "2024-01-08",
-    "sha1": "0266d9b08ee9a67789bb1bd27937699303af328f"
+    "date": "2024-01-11",
+    "sha1": "6fcaaf9d6fb4f19a5ac0d8a1223d67f1180e2d24"
   },
   "support": {
     "link": "https://paypal.me/anggaxyz"

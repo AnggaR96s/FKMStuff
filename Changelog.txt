@@ -1,10 +1,10 @@
-17e8e24373e8 joyeuse_defconfig: regenerate
-2700f040a81d Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux
-11fc60f0cd74 Linux 4.14.335
-3a01c48e7a4b block: Don't invalidate pagecache for invalid falloc modes
-cb2b974ad57c dm-integrity: don't modify bio's immutable bio_vec in integrity_metadata()
-73bee1209302 net: rfkill: gpio: set GPIO direction
-21d33e353fb1 net: 9p: avoid freeing uninit memory in p9pdu_vreadf
-3abc53a64e0a Bluetooth: hci_event: Fix not checking if HCI_OP_INQUIRY has been sent
-54fdb2637254 USB: serial: option: add Quectel RM500Q R13 firmware support
-299d5683269a USB: serial: option: add Foxconn T99W265 with new baseline
+a3040f86469a joyeuse_defconfig: regenerate
+ac716cd2c855 Merge branch 'linux-4.14.y' of git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux
+c31e35278ea8 Linux 4.14.336
+108df1056a48 mmc: core: Cancel delayed work before releasing host
+b8221ff394b7 mmc: rpmb: fixes pause retune on all RPMB partitions.
+ba6779d68c10 firewire: ohci: suppress unexpected system reboot in AMD Ryzen machines and ASM108x/VT630x PCIe cards
+90cf756c4f9c i40e: fix use-after-free in i40e_aqc_add_filters()
+50cf4cee9574 net: bcmgenet: Fix FCS generation for fragmented skbuffs
+5afbb60ffdbe net: sched: em_text: fix possible memory leak in em_text_destroy()
+83724831dab1 nfc: llcp_core: Hold a ref to llcp_local->dev when holding a ref to llcp_local
